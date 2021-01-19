@@ -1,0 +1,94 @@
+﻿
+/*
+Tecnologia da Informação - Cejam Rio
+Data: 30/08/2013
+Autor: Antonio Silva
+E-mail: antonio.silva@cejam.org.br
+*/
+
+
+/*CSS CORPO*/
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: arial;
+  font-size: 0.8em;
+}
+body {
+  /*background-image: url('../img/bg_ramais.png');*/
+  /*background-repeat: repeat-x;*/
+  background-color: #F8F8FF /*#FFFFFF /*#bdbdbd; */
+}
+
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+.header {
+  padding: 0.05em 0em;
+  text-align: center;
+}
+.tabela-ramais {
+  width: 100%;
+}
+.tabela-ramais thead {
+  background:#4f81be;
+  color: #FFF;
+  }
+  
+.tabela-ramais thead td {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.tabela-ramais td {
+  line-height: 1.6em;
+  text-align: left;
+  margin: 0em;
+  padding: 0em  1em 0em 0.5em;
+}
+
+.tabela-ramais tbody tr:nth-child(odd){
+  background: #dbe5f1;
+}
+.tabela-ramais tbody tr:nth-child(even) {
+  background: #b8cce4;
+}
+
+.manual {
+  background-color: #FFF;
+}
+.manual ul{
+  margin: 0.09%;
+  padding: 0.08%;
+  background: #b8cce4;
+  }
+.manual h3 {
+  margin-bottom: 0.8%;
+}
+
+.manual li {
+  list-style: none;
+
+}
+.sub-title {
+  font-weight: bold;
+  margin-top: 0.5%;
+}
+.footer {
+  clear: both;
+  color: #000;
+  text-align: right;
+  margin: 0% 0%;
+}
+.footer li {
+  list-style: none;
+}
